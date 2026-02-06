@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --default-color: #F5F4F0;
+    --text-headline-color: #E1624F;
+    --text-primary-color: #1B1B1B;
+    --text-secondary-color: #333;
+    --border-color: #D9D9D9;
+    --blue-accent: #0C51A7;
+    --purple-accent: #591B98;
+    --pink-accent: #E5245E;
+    --orange-accent: #E95E10;
+}
+
+::selection {
+    background-color: var(--orange-accent);
+    color: var(--default-color);
+}
+
+html, body {
+    background-color: var(--default-color);
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    padding: 5.5rem 5rem 3rem;
+}
+
+h1, h2, h3 {
+    color: var(--text-primary-color);
+    font-weight: 700;
+}
+
+img {
+    border-radius: 1.75rem;
+    vertical-align: top;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    color: var(--text-secondary-color);
+}
+
+#Principal, #Destinos, footer {
+    max-width: 75rem;
+    margin-inline: auto;
+}
+
+#Principal, #Destinos {
+    padding-bottom: 2.5rem;
+    border-bottom: .0625rem solid var(--border-color);
+}
+
+#Principal span, #Destinos > span {
+    color: var(--text-headline-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#Principal img, #Destinos img {
+    width: 100%;
+}
+
+#Principal {
+    margin-bottom: 4rem;
+}
+
+#Principal h1 {
+    font-size: 2.25rem;
+    margin: .5rem 0 2.5rem;
+}
+
+#Principal p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#Destinos {
+    margin-bottom: 2.5rem;
+}
+
+#Destinos > h2 {
+    font-size: 2rem;
+    margin: .125rem 0 .5rem;
+}
+
+#Destinos > p {
+    margin-bottom: 4rem;
+}
+
+#Destinos article {
+    margin-bottom: 3rem;
+}
+
+#Destinos article:last-child {
+    margin-bottom: 0;
+}
+
+#Destinos article img {
+    margin-bottom: 1.25rem;
+}
+
+#Destinos article h3 {
+    font-size: 1.75rem;
+    margin-bottom: .25rem;
+}
+
+#Destinos article p {
+    margin-bottom: 1.25rem;
+}
+
+#Destinos article > span {
+    color: var(--text-secondary-color);
+    font-weight: 700;
+}
+
+#Destinos article ul li {
+    color: var(--text-secondary-color);
+    font-weight: 700;
+}
+
+#Destinos article ul li span.Historia {
+    color: var(--blue-accent);
+}
+
+#Destinos article ul li span.Casais {
+    color: var(--purple-accent);
+}
+
+#Destinos article ul li span.Familia {
+    color: var(--pink-accent);
+}
+
+#Destinos article ul li span.Orcamento {
+    color: var(--orange-accent);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 3.75rem;
+}
+
+footer div {
+   font-family: "Alice", sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-inline: 1.25rem;
+    }
+}
