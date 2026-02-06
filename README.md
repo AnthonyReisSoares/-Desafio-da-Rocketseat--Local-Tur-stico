@@ -16,17 +16,5 @@ O site apresenta informações turísticas sobre a cidade de Busan, na Coreia do
 • Organização de layout e tipografia.
 • Boas práticas iniciais de acessibilidade (alt em imagens)
 
-📁 **Estrutura do projeto:**
-
-LocalTuristico/
-├── index.html
-├── style.css
-└── assets/
-    ├── Image_01.png
-    ├── Image_02.png
-    ├── Image_03.png
-    ├── Image_04.png
-    └── coracao.png
-
 📚 **Créditos**: 
 Projeto desenvolvido com base em um **desafio educacional da Rocketseat** para fins de aprendizado.
